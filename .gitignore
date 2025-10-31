@@ -1,0 +1,97 @@
+# ==============================
+# 🧠 LARAVEL IGNORE
+# ==============================
+
+# Logs & system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# IDE / Editor config
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+# Composer / PHP dependencies
+/vendor
+
+# Laravel caches, storage, and build output
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Homestead (local dev)
+Homestead.json
+Homestead.yaml
+
+# ==============================
+# ⚙️ FRONTEND (REACT / NODE) IGNORE
+# ==============================
+
+# Node.js dependencies
+/frontend/node_modules/
+
+# Build output
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/build/
+
+# Environment files (React)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+# Logs
+/frontend/logs
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/lerna-debug.log*
+
+# Vite cache
+/frontend/.vite/
+
+# Local config files
+/frontend/*.local
+
+# Editor / IDE
+/frontend/.vscode/*
+!/frontend/.vscode/extensions.json
+/frontend/.idea
+/frontend/.DS_Store
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
+
+# ==============================
+# 🧹 GENERAL CLEANUP
+# ==============================
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+
+# Logs (global)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
